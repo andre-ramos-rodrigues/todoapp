@@ -1,22 +1,39 @@
 .App {
   text-align: center;
-  margin: 0 250px 0 250px;
 }
 
-.App-header {
-  background-color: #b1c5ee;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 601px) {
+  .App-header {
+    background-color: #b1c5ee;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
 }
 
 .todo-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;;
 }
 
+@media (max-width: 600px)
+{
+
+.App-header {
+  background-color: #b1c5ee;
+    min-height: 10vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+}

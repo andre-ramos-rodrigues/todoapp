@@ -4,13 +4,27 @@
     font-size: 1rem;
 }
 
-.inputFormAdd {
+@media (min-width: 601px) {
+    .inputFormAdd {
     border-radius: 10px;
     border: 0.1px solid #b1c5ee;
     height: 35px;
     font-size: 1rem;
     width: 500px;
 }
+}
+
+@media (max-width: 600px) {
+    .inputFormAdd {
+        border-radius: 10px;
+        border: 0.1px solid #b1c5ee;
+        height: 35px;
+        font-size: 1rem;
+        width: 250px;
+    }
+}
+
+
 
 .btnForm {
     height: 35px;
