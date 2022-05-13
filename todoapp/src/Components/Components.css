@@ -1,0 +1,50 @@
+.divForm {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.inputFormAdd {
+    border-radius: 10px;
+    border: 0.1px solid #b1c5ee;
+    height: 35px;
+    font-size: 1rem;
+    width: 500px;
+}
+
+.btnForm {
+    height: 35px;
+    background-color: #b1c5ee;
+    border: none;
+    color: white;
+    border: none ;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.btnForm:hover {
+    border: 1px solid #5a88e6 ;
+    cursor: pointer;
+}
+.liTodo {
+    margin: 25px;
+}
+
+.todoText {
+    margin-right: 30px;
+}
+
+.btnLiTodo {
+    height: 20px;
+    background-color: #b1c5ee;
+    border: none;
+    color: white;
+    border: none ;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.btnLiTodo:hover {
+    border: 1px solid black ;
+    cursor: pointer;
+}
