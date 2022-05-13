@@ -42,6 +42,7 @@
 }
 .liTodo {
     margin: 25px;
+    list-style: none;
 }
 
 .todoText {
